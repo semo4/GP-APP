@@ -71,4 +71,5 @@ uvicorn==0.34.0
 zipp==3.21.0
 easyocr==1.7.2
 openai
-deepeval 
+deepeval
+aiobotocore
