@@ -1,4 +1,3 @@
-import uvicorn
 from fastapi import FastAPI, HTTPException, Request, Body
 from dotenv import load_dotenv
 from pydantic import BaseModel  # ----------task3Correction
@@ -1437,6 +1436,3 @@ async def proxy_image(request: Request):
         BytesIO(response.content), media_type=response.headers["Content-Type"]
     )
 
-
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=10000)
