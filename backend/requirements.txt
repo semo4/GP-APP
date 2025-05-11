@@ -74,3 +74,5 @@ openai
 deepeval
 aiobotocore
 scikit-learn
+sentence_transformers
+firebase_admin
